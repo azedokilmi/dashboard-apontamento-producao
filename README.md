@@ -38,7 +38,7 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
 
 ### 💾 **Exportação de Dados**
 
-   - O histórico das movimentações é exportado automaticamente para uma planilha em Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/historico-movimentacoes.xlsx)), com os seguintes campos:
+   - O histórico das movimentações é exportado automaticamente para uma planilha em Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/historico-movimentacoes.xlsx)) com os seguintes campos:
      
      - Produto, Origem, Destino, DataHora.
 
