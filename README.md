@@ -61,18 +61,23 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
 ### 📁 Preparar os Arquivos
 
 #### `dashboard-apontamento-produtos.py`
+
 - Script principal do projeto que deve estar localizado em sua máquina.
+
+- Para a sua execucação é necessário fazer upload do arquivo no programa do JupyterLab ou VS Code, para ter interatividade com o dashboard.
+
+- Ambos os programas são gratuitos e de fácil acesso, sendo necessário apenas a instalação deles e posteriormente a instalação das bibliotecas em questão.
 
 ### ▶️ Rodar o Programa
 
 Para rodar o programa, siga os passos abaixo:
 
-1. **Tenha o Python instalado**
+1. **Tenha o Python instalado e Programa de Codagem (Jupyter Lab ou VS Code)**
    
    Recomendado: Python 3.8+
 
 2. **Instale as dependências do projeto** (caso ainda não tenha feito):
-   Abra o terminal (ou o prompt de comando) e execute o seguinte comando para instalar as bibliotecas necessárias:
+   Abra o terminal do programa de codagem e execute o seguinte comando para instalar as bibliotecas necessárias:
 
    ```bash
    pip install dash pandas
@@ -80,19 +85,13 @@ Para rodar o programa, siga os passos abaixo:
 
 3. **Execute o programa**:
   
-   No terminal (ou prompt de comando), navegue até a área de trabalho onde o arquivo `.py` (👉 [Clique aqui para visualizar o arquivo]()) deve estar localizado e execute o comando abaixo:
+   No programa faça o upload do arquivo `.py` (👉 [Clique aqui para visualizar o arquivo]()) que pode estar em qualquer lugar da máquina (preferência para área de trabalho):
    
    Após a execução do script, os arquivos de saída serão gerados na mesma pasta onde o programa foi executado.
 
    ```bash
    python APONTAMENTO-DE-PRODUTOS.py
    ```
-
-4. **🖱️ Executável OneFile (.exe)**
-
-   Para facilitar o uso diário e tornar o processo mais prático, foi gerado um executável "onefile" (.exe) que pode ser rodado diretamente com dois cliques, sem a necessidade de abrir o prompt de comando ou programas de codagem como JupyterLab ou VS Code.
-
-   📂 O arquivo `.exe` está localizado na área de trabalho do Windows, e ao executá-lo, o processo funciona normalmente como se estivesse rodando o script `.py`.
 
 ## 📂 O que será Gerado
 
