@@ -24,7 +24,7 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
 
    - Os dados inciais de processamento são importados de uma planilha do Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/apontamento_inicial.xlsx)) onde se tem a informação de qual produto esta presente em determinado setor.
 
-   ![Prévia da Planilha .xlsx]()
+   ![Prévia da Planilha de Dados Inicial.xlsx](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-inicial.png)
      
    - Os dados de movimentação dos produtos são manipulados diretamente no sistema, com atualizações manuais realizadas pelos responsáveis por cada setor.
    
@@ -42,11 +42,11 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
      
      - Produto, Origem, Destino, DataHora.
 
-     ![Prévia da Planilha de Histórico de Movimentações .xlsx]()
+     ![Prévia da Planilha de Histórico de Movimentações .xlsx](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-historico.png)
 
    - Caso seja necessário atualizar a planilha de dados de importação é possível através da opção "ATUALIZAR" do dashboard baixar outra planilha em Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/apontamento-final.xlsx)) com as informações que foram registradas até o momento, para guardar essas informações e atualizar no dia seguinte a planilha de importação.
 
-     ![Prévia da Planilha de Atualização.xlsx]()
+     ![Prévia da Planilha de Atualização.xlsx](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-final.png)
 
 ---
 
@@ -103,9 +103,9 @@ Após rodar o programa, teremos então a geração do dashboard.
 
 - 📈 **Dashboard Interativo**
   
-  Um dashboard com opção dinâmica de movimentar os produtos pelos setores e informativo sobre o progresso da fabricação diária da fábrica (👉 [Clique aqui para visualizar o dashboard]()).
+  Um dashboard com opção dinâmica de movimentar os produtos pelos setores e informativo sobre o progresso da fabricação diária da fábrica.
   
-  ![Prévia do Dashboard]()
+  ![Prévia do Dashboard](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-dashboard.png)
 
 ### 🛠️ Planos futuros
 
