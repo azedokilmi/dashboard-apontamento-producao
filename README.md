@@ -68,7 +68,7 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
 
 - Script principal do projeto que deve estar localizado em sua máquina.
 
-- Para a sua execucação é necessário fazer upload do arquivo no programa do JupyterLab ou VS Code para ter interatividade com o dashboard.
+- Para a sua execucação é necessário fazer upload do arquivo no programa do JupyterLab, VS Code ou outros programas de codagem para ter interatividade com o dashboard.
 
 - Ambos os programas são gratuitos e de fácil acesso, sendo necessário apenas a instalação deles e posteriormente a instalação das bibliotecas em questão.
 
