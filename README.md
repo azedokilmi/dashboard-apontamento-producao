@@ -22,9 +22,11 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
   
 ### 📥 **Entrada de Dados**
 
-   - Os dados de movimentação dos produtos são manipulados diretamente no sistema, com atualizações manuais realizadas pelos responsáveis por cada setor.
+   - Os dados inciais de processamento são importados de uma planilha do excell `.xlsx` (👉 [Clique aqui para visualizar o arquivo]()) onde se tem a informação de qual produto esta presente em determinado setor.
+
+   ![Prévia da Planilha .xlsx]()
      
-   - Os dados podem ser exportados automaticamente para um arquivo Excel, com informações sobre o produto, setor de origem, destino e horário da movimentação.
+   - Os dados de movimentação dos produtos são manipulados diretamente no sistema, com atualizações manuais realizadas pelos responsáveis por cada setor.
    
 ### 📊 **Visualização e Interatividade**
 
@@ -61,16 +63,50 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
 
 ### ▶️ Rodar o Programa
 
+Para rodar o programa, siga os passos abaixo:
+
 1. **Tenha o Python instalado**
    
    Recomendado: Python 3.8+
 
-2. **Instale as dependências do projeto:**
-
-   No terminal (ou prompt de comando), execute o comando:
+2. **Instale as dependências do projeto** (caso ainda não tenha feito):
+   Abra o terminal (ou o prompt de comando) e execute o seguinte comando para instalar as bibliotecas necessárias:
 
    ```bash
    pip install dash pandas
+   ```
+
+3. **Execute o programa**:
+  
+   No terminal (ou prompt de comando), navegue até a área de trabalho onde o arquivo `.py` (👉 [Clique aqui para visualizar o arquivo]()) deve estar localizado e execute o comando abaixo:
+   
+   Após a execução do script, os arquivos de saída serão gerados na mesma pasta onde o programa foi executado.
+
+   ```bash
+   python APONTAMENTO-DE-PRODUTOS.py
+   ```
+
+4. **🖱️ Executável OneFile (.exe)**
+
+   Para facilitar o uso diário e tornar o processo mais prático, foi gerado um executável "onefile" (.exe) que pode ser rodado diretamente com dois cliques, sem a necessidade de abrir o prompt de comando ou programas de codagem como JupyterLab ou VS Code.
+
+   📂 O arquivo `.exe` está localizado na área de trabalho do Windows, e ao executá-lo, o processo funciona normalmente como se estivesse rodando o script `.py`.
+
+## 📂 O que será Gerado
+
+Após rodar o programa, os seguintes arquivos serão gerados:
+
+- 📄 **Histórico de Movimentação**
+  
+  Histórico mostrando toda a movimentação de um produto pelos setores e seu horário de alteração. (👉 [Clique aqui para a planilha]()).
+  
+  ![Prévia do Histórico]()
+
+- 📈 **Dashboard Interativo**
+  
+  Um dashboard com opção dinâmica de movimentar os produtos pelos setores e informativo sobre o progresso da fabricação diária da fábrica (👉 [Clique aqui para visualizar o dashboard]()).
+  
+  ![Prévia do Dashboard]()
 
 ### 🛠️ Planos futuros
 
