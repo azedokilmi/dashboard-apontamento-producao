@@ -36,17 +36,19 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
      
    - O dashboard exibe as métricas de produção, como o total de produtos em andamento e o número de produtos finalizados.
 
+   ![Prévia do Dashboard](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-dashboard.png)
+
 ### 💾 **Exportação de Dados**
 
    - O histórico das movimentações é exportado automaticamente para uma planilha em Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/historico-movimentacoes.xlsx)) com os seguintes campos:
      
      - Produto, Origem, Destino, DataHora.
 
-     ![Prévia da Planilha de Histórico de Movimentações .xlsx](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-historico.png)
+   ![Prévia da Planilha de Histórico de Movimentações .xlsx](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-historico.png)
 
    - Caso seja necessário atualizar a planilha de dados de importação é possível através da opção "ATUALIZAR" do dashboard baixar outra planilha em Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/apontamento-final.xlsx)) com as informações que foram registradas até o momento, para guardar essas informações e atualizar no dia seguinte a planilha de importação.
 
-     ![Prévia da Planilha de Atualização.xlsx](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-final.png)
+   ![Prévia da Planilha de Atualização.xlsx](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-final.png)
 
 ---
 
@@ -104,9 +106,11 @@ Após rodar o programa, teremos então a geração do dashboard.
 
 - 📈 **Dashboard Interativo**
   
-  Um dashboard com opção dinâmica de movimentar os produtos pelos setores e informativo sobre o progresso da fabricação diária da fábrica.
+  - Um dashboard com opção dinâmica de movimentar os produtos pelos setores e informativo sobre o progresso da fabricação diária da fábrica.
+
+- 📋  **Histórico de Movimentação**
   
-  ![Prévia do Dashboard](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-dashboard.png)
+  - Um arquivo detalhado de todos os movimentos que foram feitos com o produto, ou seja, todas as suas transições pelos setores e suas respectivas datas e horas de movimentação.
 
 ### 🛠️ Planos futuros
 
