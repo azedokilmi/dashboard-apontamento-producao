@@ -62,7 +62,7 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
 
 ### 📁 Preparar os Arquivos
 
-#### `dashboard-apontamento-produtos.py`
+#### `APONTAMENTO-DE-PRODUTOS.py`
 
 - Script principal do projeto que deve estar localizado em sua máquina.
 
