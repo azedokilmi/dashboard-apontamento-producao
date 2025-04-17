@@ -22,7 +22,7 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
   
 ### 📥 **Entrada de Dados**
 
-   - Os dados inciais de processamento são importados de uma planilha do Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo]()) onde se tem a informação de qual produto esta presente em determinado setor.
+   - Os dados inciais de processamento são importados de uma planilha do Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/apontamento_inicial.xlsx)) onde se tem a informação de qual produto esta presente em determinado setor.
 
    ![Prévia da Planilha .xlsx]()
      
@@ -36,13 +36,17 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
      
    - O dashboard exibe as métricas de produção, como o total de produtos em andamento e o número de produtos finalizados.
 
-### 💾 **Exportação Automática**
+### 💾 **Exportação de Dados**
 
-   - O histórico das movimentações é exportado automaticamente para uma planilha em Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo]()), com os seguintes campos:
+   - O histórico das movimentações é exportado automaticamente para uma planilha em Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/historico-movimentacoes.xlsx)), com os seguintes campos:
      
      - Produto, Origem, Destino, DataHora.
 
-     ![Prévia da Planilha .xlsx]()
+     ![Prévia da Planilha de Histórico de Movimentações .xlsx]()
+
+   - Caso seja necessário atualizar a planilha de dados de importação é possível através da opção "ATUALIZAR" do dashboard baixar outra planilha em Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/apontamento-final.xlsx)) com as informações que foram registradas até o momento, para guardar essas informações e atualizar no dia seguinte a planilha de importação.
+
+     ![Prévia da Planilha de Atualização.xlsx]()
 
 ---
 
@@ -50,7 +54,7 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
 
 - O sistema foi desenvolvido em Python utilizando a biblioteca Dash para a criação de interfaces web interativas.
   
-- O dashboard é projetado para ser visual e dinâmico, permitindo que os usuários administrativos possam interagir diretamente com o sistema e registrar as movimentações.
+- O dashboard é projetado para ser visual e dinâmico, permitindo que os usuários administrativos possam interagir diretamente com o sistema e registrar as movimentações, podendo atualizar os dados quando quiser salvando em um arquivo Excel e, caso necessário, pode também clicar em um botão chamado "REINICIAR" para retornar todos os produtos para a primeira etapa da produção.
   
 - O projeto inclui um mecanismo de atualização em tempo real, com a possibilidade de integração futura com sistemas ERP (TOTVS, SAP, etc.) para atualizar automaticamente o fluxo de produção.
 
@@ -64,7 +68,7 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
 
 - Script principal do projeto que deve estar localizado em sua máquina.
 
-- Para a sua execucação é necessário fazer upload do arquivo no programa do JupyterLab ou VS Code, para ter interatividade com o dashboard.
+- Para a sua execucação é necessário fazer upload do arquivo no programa do JupyterLab ou VS Code para ter interatividade com o dashboard.
 
 - Ambos os programas são gratuitos e de fácil acesso, sendo necessário apenas a instalação deles e posteriormente a instalação das bibliotecas em questão.
 
@@ -85,7 +89,7 @@ Para rodar o programa, siga os passos abaixo:
 
 3. **Execute o programa**:
   
-   No programa faça o upload do arquivo `.py` (👉 [Clique aqui para visualizar o arquivo]()) que pode estar em qualquer lugar da máquina (preferência para área de trabalho):
+   No programa faça o upload do arquivo `.py` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/APONTAMENTO-DE-PRODUTOS.py)) que pode estar em qualquer lugar da máquina (preferência para área de trabalho):
    
    Após a execução do script, os arquivos de saída serão gerados na mesma pasta onde o programa foi executado.
 
@@ -95,13 +99,7 @@ Para rodar o programa, siga os passos abaixo:
 
 ## 📂 O que será Gerado
 
-Após rodar o programa, os seguintes arquivos serão gerados:
-
-- 📄 **Histórico de Movimentação**
-  
-  Histórico mostrando toda a movimentação de um produto pelos setores e seu horário de alteração. (👉 [Clique aqui para a planilha]()).
-  
-  ![Prévia do Histórico]()
+Após rodar o programa, teremos então a geração do dashboard.
 
 - 📈 **Dashboard Interativo**
   
