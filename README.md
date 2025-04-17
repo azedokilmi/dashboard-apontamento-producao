@@ -81,13 +81,14 @@ Para rodar o programa, siga os passos abaixo:
    Recomendado: Python 3.8+
 
 2. **Instale as dependências do projeto** (caso ainda não tenha feito):
+   
    Abra o terminal do programa de codagem e execute o seguinte comando para instalar as bibliotecas necessárias:
 
    ```bash
    pip install dash pandas
    ```
 
-3. **Execute o programa**:
+4. **Execute o programa**:
   
    No programa faça o upload do arquivo `.py` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/APONTAMENTO-DE-PRODUTOS.py)) que pode estar em qualquer lugar da máquina (preferência para área de trabalho):
    
