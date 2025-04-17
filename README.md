@@ -36,15 +36,11 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
      
    - O dashboard exibe as métricas de produção, como o total de produtos em andamento e o número de produtos finalizados.
 
-   ![Prévia do Dashboard](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-dashboard.png)
-
 ### 💾 **Exportação de Dados**
 
    - O histórico das movimentações é exportado automaticamente para uma planilha em Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/historico-movimentacoes.xlsx)) com os seguintes campos:
      
      - Produto, Origem, Destino, DataHora.
-
-   ![Prévia da Planilha de Histórico de Movimentações .xlsx](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-historico.png)
 
    - Caso seja necessário atualizar a planilha de dados de importação é possível através da opção "ATUALIZAR" do dashboard baixar outra planilha em Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/apontamento-final.xlsx)) com as informações que foram registradas até o momento, para guardar essas informações e atualizar no dia seguinte a planilha de importação.
 
@@ -92,13 +88,9 @@ Para rodar o programa, siga os passos abaixo:
 
 4. **Execute o programa**:
   
-   No programa faça o upload do arquivo `.py` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/APONTAMENTO-DE-PRODUTOS.py)) que pode estar em qualquer lugar da máquina (preferência para área de trabalho):
+   No programa faça o upload do arquivo `.py` (👉 [Clique aqui para visualizar o arquivo](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/APONTAMENTO-DE-PRODUTOS.py)) que pode estar em qualquer lugar da máquina (preferencialmente na área de trabalho):
    
-   Após a execução do script, os arquivos de saída serão gerados na mesma pasta onde o programa foi executado.
-
-   ```bash
-   python APONTAMENTO-DE-PRODUTOS.py
-   ```
+   Após a execução do script pelo programa, o dashboard será criado dentro do programa e os arquivos de saída como histórico e dados atualizados serão gerados na área de trabalho.
 
 ## 📂 O que será Gerado
 
@@ -106,11 +98,15 @@ Após rodar o programa, teremos então a geração do dashboard.
 
 - 📈 **Dashboard Interativo**
   
-  - Um dashboard com opção dinâmica de movimentar os produtos pelos setores e informativo sobre o progresso da fabricação diária da fábrica.
+  - Um dashboard com opção dinâmica de movimentar os produtos pelos setores a medida que eles forem sendo apontados e seus processos forem sendo finalizados até a etapa final de entrega ao cliente final. Além do informativo sobre o progresso da fabricação diária da fábrica.
+ 
+  ![Prévia do Dashboard](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-dashboard.png)
 
 - 📋  **Histórico de Movimentação**
   
   - Um arquivo detalhado de todos os movimentos que foram feitos com o produto, ou seja, todas as suas transições pelos setores e suas respectivas datas e horas de movimentação.
+ 
+  ![Prévia da Planilha de Histórico de Movimentações .xlsx](https://github.com/azedokilmi/dashboard-apontamento-producao/blob/main/previa-historico.png)
 
 ### 🛠️ Planos futuros
 
@@ -143,6 +139,8 @@ Após rodar o programa, teremos então a geração do dashboard.
 - **Notificações por e-mail ou sistema** ao detectar gargalos ou produtos parados por muito tempo.
   
 - Integração com **banco de dados SQL/PostgreSQL** para maior escalabilidade.
+
+- Criação de um executável que permita que o dashboard seja aberto de forma atualizada com o banco de dados com apenas um clique, não sendo necessário ser executado o script toda vez que ele for usado e tendo que importar dados de planilha Excel.
 
 ---
 
