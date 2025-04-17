@@ -54,7 +54,7 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
 
 - O sistema foi desenvolvido em Python utilizando a biblioteca Dash para a criação de interfaces web interativas.
   
-- O dashboard é projetado para ser visual e dinâmico, permitindo que os usuários administrativos possam interagir diretamente com o sistema e registrar as movimentações, podendo atualizar os dados quando quiser salvando em um arquivo Excel e, caso necessário, pode também clicar em um botão chamado "REINICIAR" para retornar todos os produtos para a primeira etapa da produção.
+- O dashboard é projetado para ser visual e dinâmico, permitindo que os usuários administrativos possam interagir diretamente com o sistema e registrar as movimentações, podendo atualizar os dados quando quiser salvando em um arquivo Excel pelo botão "ATUALIZAR" e podendo retornar todos os produtos para a primeira etapa da produção pelo botão "REINICIAR".
   
 - O projeto inclui um mecanismo de atualização em tempo real, com a possibilidade de integração futura com sistemas ERP (TOTVS, SAP, etc.) para atualizar automaticamente o fluxo de produção.
 
