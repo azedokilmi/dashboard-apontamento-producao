@@ -22,7 +22,7 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
   
 ### 📥 **Entrada de Dados**
 
-   - Os dados inciais de processamento são importados de uma planilha do excell `.xlsx` (👉 [Clique aqui para visualizar o arquivo]()) onde se tem a informação de qual produto esta presente em determinado setor.
+   - Os dados inciais de processamento são importados de uma planilha do Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo]()) onde se tem a informação de qual produto esta presente em determinado setor.
 
    ![Prévia da Planilha .xlsx]()
      
@@ -38,9 +38,11 @@ Este projeto tem como objetivo monitorar a movimentação de produtos nas difere
 
 ### 💾 **Exportação Automática**
 
-   - O histórico das movimentações é exportado automaticamente para um arquivo Excel, com os seguintes campos:
+   - O histórico das movimentações é exportado automaticamente para uma planilha em Excel `.xlsx` (👉 [Clique aqui para visualizar o arquivo]()), com os seguintes campos:
      
      - Produto, Origem, Destino, DataHora.
+
+     ![Prévia da Planilha .xlsx]()
 
 ---
 
